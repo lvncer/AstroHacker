@@ -1,6 +1,12 @@
-<h1 align=center>Astro + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
+<h1 align=center>Tks-Astroplate</h1>
 
-<p align=center>Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript, providing everything you need to jumpstart your Astro project and save valuable time.</p>
+<div align=center>
+
+This Project has been Forked by
+
+Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript, providing everything you need to jumpstart your Astro project and save valuable time.
+
+</div>
 
 <p align=center>Made with ♥ by <a href="https://zeon.studio/">Zeon Studio</a></p>
 
@@ -10,51 +16,10 @@
 </h2>
 
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%404.3.2" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=4.3&color=000&logo=astro" />
-  </a>
-
-  <a href="https://github.com/zeon-studio/astroplate/blob/main/LICENSE">
+<a href="https://github.com/zeon-studio/astroplate/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/zeon-studio/astroplate" alt="license"></a>
-
-  <img src="https://img.shields.io/github/languages/code-size/zeon-studio/astroplate" alt="code size">
-
-  <a href="https://github.com/zeon-studio/astroplate/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/astroplate" alt="contributors"></a>
+<img src="https://img.shields.io/github/languages/code-size/zeon-studio/astroplate" alt="code size">
 </p>
-
-## 📌 Key Features
-
-- 👥 Multi-Authors
-- 🌐 Multilingual
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
-
-### 📄 15+ Pre-designed Pages
-
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
 
 ## 🔗 Integrations
 
