@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "Who am I !?"
+  content: "とあるIT系専門学校の生徒です。高橋と申します。プログラミングをやったり、ゲーム実況をみたり。"
   image: "/images/banner.png"
   button:
     enable: true
@@ -11,41 +11,40 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "How can I help you?"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "私が取得してきた資格を紹介します！"
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "基本情報技術者試験"
+      - "情報セキュリティマネジメント試験"
+      - "その他、情報処理試験に受験経験あり"
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Astro"
+  - title: "What languages can I use?"
     image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "私が使ってきたプログラミング言語を紹介します！"
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "JavaScript (React, React-Native, NextJs, NodeJs)"
+      - "TypeScript"
+      - "Python (FastAPI, Flask, Django)"
+      - "PHP"
+      - "Swift"
+      - "Tools (rds, noSQL)"
     button:
-      enable: true
+      enable: false
       label: "Get Started Now"
       link: "https://github.com/zeon-studio/astroplate"
 
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
+  - title: "How have you been involved in projects?"
     image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "私の経験を紹介します。あなたのプロジェクトに貢献させてください！"
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "ドロカツ全国大会　プログラミング部門優勝"
+      - "AI Challenge 2024 予選出場"
+      - "さまざまなアプリ開発の協力"
     button:
       enable: false
       label: ""

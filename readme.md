@@ -40,6 +40,7 @@ Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript
 
 ```bash
 npm install
+yarn install
 ```
 
 ### 👉 Development Command

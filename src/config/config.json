@@ -17,14 +17,14 @@
     "sticky_header": true,
     "theme_switcher": true,
     "default_theme": "system",
-    "pagination": 2,
+    "pagination": 6,
     "summary_length": 200,
     "blog_folder": "blog"
   },
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio)"
+    "copyright": "Designed And Developed by [Zeon Studio](https://zeon.studio) <br> Developed by [hellotksan](https://github.com/hellotksan)"
   },
 
   "navigation_button": {
