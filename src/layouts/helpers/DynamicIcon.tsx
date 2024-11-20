@@ -6,6 +6,7 @@ import * as FaIcons from "react-icons/fa6";
 // import * as FiIcons from "react-icons/fi";
 // import * as Io5Icons from "react-icons/io5";
 // import * as RiIcons from "react-icons/ri";
+import * as SiIcons from "react-icons/si";
 // import * as TbIcons from "react-icons/tb";
 // import * as TfiIcons from "react-icons/tfi";
 
@@ -18,6 +19,7 @@ interface IDynamicIcon extends React.SVGProps<SVGSVGElement> {
 
 const iconLibraries: { [key: string]: IconMap } = {
   fa: FaIcons,
+  si: SiIcons
 };
 
 const DynamicIcon: FC<IDynamicIcon> = ({ icon, ...props }) => {

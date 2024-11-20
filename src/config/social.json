@@ -4,6 +4,36 @@
       "name": "github",
       "icon": "FaGithub",
       "link": "https://www.github.com/hellotksan"
+    },
+    {
+      "name": "youtube",
+      "icon": "FaYoutube",
+      "link": "https://www.youtube.com/channel/UC6rEvEHzb2GclFduXrdSjHA"
+    },
+    {
+      "name": "twitch",
+      "icon": "FaTwitch",
+      "link": "https://www.twitch.tv/whoknowswhoyouare"
+    },
+    {
+      "name": "twitter",
+      "icon": "FaTwitter",
+      "link": "https:/x.com/Negimasa559095"
+    },
+    {
+      "name": "zenn",
+      "icon": "SiZenn",
+      "link": "https://zenn.dev/tkszenn"
+    },
+    {
+      "name": "discord",
+      "icon": "FaDiscord",
+      "link": "https://discord.gg/EVvBMfz3"
+    },
+    {
+      "name": "Facebook",
+      "icon": "FaFacebook",
+      "link": "https://www.facebook.com/profile.php?id=61568157803732"
     }
   ]
 }

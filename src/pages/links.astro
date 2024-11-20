@@ -1,20 +1,17 @@
 ---
 import Base from "@/layouts/Base.astro";
+import social from "@/config/social.json";
+import Social from "@/components/Social.astro";
 ---
 
 <Base title="My Social Links">
-  <section class="section-sm text-center">
-    <div class="container">
-      <div class="row justify-center">
-        <h1>My Social Links Here</h1>
-        <div class="my-10">
-          <ul>
-            <li class="my-5"><a href="https://github.com/hellotksan">github</a></li>
-            <li class="my-5"><a href="https://github.com/hellotksan">github</a></li>
-            <li class="my-5"><a href="https://github.com/hellotksan">github</a></li>
-            <li class="my-5"><a href="https://github.com/hellotksan">github</a></li>
-          </ul>
-        </div>
+  <section
+    class="flex text-center justify-center h-[calc(100vh-27rem)] items-center"
+  >
+    <div class="row justify-center text-center">
+      <h1>My Social Links Here !!</h1>
+      <div class="mt-20">
+        <Social source={social.main} className="social-icons" />
       </div>
     </div>
   </section>

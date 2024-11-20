@@ -1,11 +1,10 @@
 ---
-import Logo from "@/components/Logo.astro";
+// import Logo from "@/components/Logo.astro";
 import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
-
 const { footer }: { footer: { name: string; url: string }[] } = menu;
 ---
 
@@ -29,9 +28,9 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
           }
         </ul>
       </div>
-      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
+      <!-- <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
         <Social source={social.main} className="social-icons" />
-      </div>
+      </div> -->
     </div>
   </div>
   <div class="border-t border-border py-20 dark:border-darkmode-border">
