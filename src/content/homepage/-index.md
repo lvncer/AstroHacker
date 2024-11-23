@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "Who am I !?"
+  title: "Hi, Im Student Aspiring Full Stack Engineer."
   content: "とあるIT系専門学校の生徒です。高橋と申します。プログラミングをやったり、ゲーム実況をみたり。"
   image: "/images/banner.png"
   button:
     enable: true
     label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    link: "https://github.com/hellotksan/tks-astroplate"
 
 # Features
 features:
