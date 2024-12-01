@@ -7,6 +7,7 @@ import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import { getEntry } from "astro:content";
 import { FaCheck } from "react-icons/fa";
+import Hero from "@/layouts/components/Hero.tsx";
 
 interface Homepage {
   banner: {
@@ -27,20 +28,27 @@ const { banner, features }: Homepage = homepage.data;
 <Base>
   <!-- Banner -->
   <section
-    class="min-h-screen section pt-14 flex flex-col items-center justify-center"
+    class="min-h-[85vh] section pt-14 flex flex-col items-center justify-center"
   >
     <div class="container">
       <div class="row justify-center">
-        <div class="lg:col-7 md:col-9 mb-10 text-center">
-          <h1
+        <div class="lg:col-7 md:col-9 text-center">
+          <Hero
+            banner={{
+              title: markdownify(banner.title),
+              content: markdownify(banner.content),
+            }}
+            client:load
+          />
+          <!-- <h1
             set:html={markdownify(banner.title)}
             class="mb-6 text-h3 lg:text-7xl"
           />
-          <p set:html={markdownify(banner.content)} class="my-20" />
+          <p set:html={markdownify(banner.content)} class="my-14" /> -->
           {
             banner.button.enable && (
               <a
-                class="btn btn-primary mb-40"
+                class="btn btn-primary mb-10"
                 href={banner.button.link}
                 target={
                   banner.button.link.startsWith("http") ? "_blank" : "_self"

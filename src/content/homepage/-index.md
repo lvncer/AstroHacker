@@ -23,23 +23,8 @@ features:
       label: "Get Started Now"
       link: "#"
 
-  - title: "What languages can I use?"
-    image: "/images/service-2.png"
-    content: "私が使ってきたプログラミング言語やフレームワークを紹介します！"
-    bulletpoints:
-      - "Python (FastAPI, Flask, Django)"
-      - "JavaScript (React, React-Native, NextJs, NodeJs)"
-      - "TypeScript"
-      - "PHP"
-      - "Swift"
-      - "SQL, noSQL"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
-
   - title: "How have I deployed projects?"
-    image: "/images/service-1.png"
+    image: "/images/service-2.png"
     content: "私が開発してきたアプリケーションを紹介します！"
     bulletpoints:
       - "<a href='https://nextsns-one.vercel.app'>Next SNS</a><br><br> よくあるSNSサイトのクローンです。フロントエンドにNextJs、バックエンドにNodeJsとExpress、データベースにmongoDBを使用しています。"
