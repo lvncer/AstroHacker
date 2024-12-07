@@ -6,8 +6,10 @@ import CallToAction from "@/partials/CallToAction.astro";
 import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import { getEntry } from "astro:content";
-import { FaCheck } from "react-icons/fa";
+// import { FaCheck } from "react-icons/fa";
 import Hero from "@/layouts/components/Hero.tsx";
+import Bullet from "@/layouts/components/Bullet.tsx";
+import FeatureHeader from "@/layouts/components/FeatureHeader.tsx";
 
 interface Homepage {
   banner: {
@@ -96,14 +98,23 @@ const { banner, features }: Homepage = homepage.data;
               />
             </div>
             <div class={`md:col-7 lg:col-6 ${index % 2 !== 0 && "md:order-1"}`}>
-              <h2 set:html={markdownify(feature.title)} class="mb-4" />
-              <p set:html={markdownify(feature.content)} class="mb-8 text-lg" />
+              <FeatureHeader
+                feature={{
+                  title: markdownify(feature.title),
+                  content: markdownify(feature.content),
+                }}
+                index={index}
+                client:load
+              />
+              {/* <h2 set:html={markdownify(feature.title)} class="mb-4" />
+              <p set:html={markdownify(feature.content)} class="mb-8 text-lg" /> */}
               <ul>
                 {feature.bulletpoints.map((bullet: string) => (
-                  <li class="relative mb-4 pl-6">
-                    <FaCheck className={"absolute left-0 top-1.5"} />
-                    <span set:html={markdownify(bullet)} />
-                  </li>
+                  <Bullet bullet={bullet} client:load />
+                  // <li class="relative mb-4 pl-6">
+                  //   <FaCheck className={"absolute left-0 top-1.5"} />
+                  //   <span set:html={markdownify(bullet)} />
+                  // </li>
                 ))}
               </ul>
               {feature.button.enable && (
