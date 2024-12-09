@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "Hi, Im Student Aspiring Full Stack Engineer."
+  title: "I`m Student Aspiring Full Stack Engineer."
   content: "とあるIT系専門学校の生徒です。高橋と申します。プログラミングをやったり、ゲーム実況をみたり。"
   image: "/images/banner.png"
   button:
