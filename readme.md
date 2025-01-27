@@ -3,7 +3,7 @@
 ## 📝 License
 
 Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
-Copyright (c) 2024-2025 - Deployed by [hellotksan](https://github.com/hellotksan)
+Copyright (c) 2024-2025 - Deployed by [lvncer](https://github.com/lvncer)
 
 **Code License:** Released under the [MIT](https://github.comzeon-studio/astroplate/blob/main/LICENSE) license.
 
